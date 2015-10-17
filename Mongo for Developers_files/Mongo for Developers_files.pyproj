@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ac80016c-d6a7-459b-9d14-d6913de254ac</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Mongo for Developers_files</Name>
+    <RootNamespace>Mongo for Developers_files</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="chapter_1\" />
+    <Folder Include="chapter_1\bottle_framework_url_handlers\" />
+    <Folder Include="chapter_1\bottle_framework_url_handlers\bottle_files\" />
+    <Folder Include="chapter_1\bottle_framework_url_handlers\bottle_files\views\" />
+    <Folder Include="chapter_1\bottle_framework_using_cookies\" />
+    <Folder Include="chapter_1\bottle_framework_using_cookies\bottle_files\" />
+    <Folder Include="chapter_1\bottle_framework_using_cookies\bottle_files\views\" />
+    <Folder Include="chapter_1\hello_world_mongo_style\" />
+    <Folder Include="chapter_1\hello_world_on_a_web_server\" />
+    <Folder Include="chapter_1\homework_1_1\" />
+    <Folder Include="chapter_1\homework_1_1\hw1-1\" />
+    <Folder Include="chapter_1\homework_1_1\hw1-1\dump\" />
+    <Folder Include="chapter_1\homework_1_1\hw1-1\dump\m101\" />
+    <Folder Include="chapter_1\homework_1_2\" />
+    <Folder Include="chapter_1\homework_1_3\" />
+    <Folder Include="chapter_1\installing_mongodb_windows\" />
+    <Folder Include="chapter_1\installing_pymongo\" />
+    <Folder Include="chapter_1\introduction_to_bottle_web_framework\" />
+    <Folder Include="chapter_1\pymongo_exception_processing\" />
+    <Folder Include="chapter_1\python_exception_handling\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chapter_1\bottle_framework_url_handlers\bottle_files\views\fruit_selection.tpl" />
+    <Content Include="chapter_1\bottle_framework_url_handlers\bottle_files\views\hello_world.tpl" />
+    <Content Include="chapter_1\bottle_framework_using_cookies\bottle_files\views\fruit_selection.tpl" />
+    <Content Include="chapter_1\bottle_framework_using_cookies\bottle_files\views\hello_world.tpl" />
+    <Content Include="chapter_1\homework_1_1\hw1-1\dump\m101\funnynumbers.bson" />
+    <Content Include="chapter_1\homework_1_1\hw1-1\dump\m101\funnynumbers.metadata.json" />
+    <Content Include="chapter_1\homework_1_1\hw1-1\dump\m101\hw1.bson" />
+    <Content Include="chapter_1\homework_1_1\hw1-1\dump\m101\hw1.metadata.json" />
+    <Content Include="chapter_1\installing_mongodb_windows\mongod.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="chapter_1\bottle_framework_url_handlers\bottle_files\fruit_form.py" />
+    <Compile Include="chapter_1\bottle_framework_url_handlers\bottle_files\hello_world.py" />
+    <Compile Include="chapter_1\bottle_framework_using_cookies\bottle_files\fruit_form.py" />
+    <Compile Include="chapter_1\bottle_framework_using_cookies\bottle_files\hello_world.py" />
+    <Compile Include="chapter_1\hello_world_mongo_style\pymongo_getting_started.py" />
+    <Compile Include="chapter_1\hello_world_on_a_web_server\hello.py" />
+    <Compile Include="chapter_1\homework_1_2\hw1-2.py" />
+    <Compile Include="chapter_1\homework_1_3\hw1-3.py" />
+    <Compile Include="chapter_1\installing_pymongo\pymongo_getting_started.py" />
+    <Compile Include="chapter_1\introduction_to_bottle_web_framework\hello_bottle.py" />
+    <Compile Include="chapter_1\pymongo_exception_processing\mongo_exception.py" />
+    <Compile Include="chapter_1\python_exception_handling\exception_caught.py" />
+    <Compile Include="chapter_1\python_exception_handling\exception_uncaught.py" />
+  </ItemGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
