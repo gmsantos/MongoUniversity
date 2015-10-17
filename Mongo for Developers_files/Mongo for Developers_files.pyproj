@@ -13,6 +13,8 @@
     <OutputPath>.</OutputPath>
     <Name>Mongo for Developers_files</Name>
     <RootNamespace>Mongo for Developers_files</RootNamespace>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -73,6 +75,9 @@
     <Compile Include="chapter_1\pymongo_exception_processing\mongo_exception.py" />
     <Compile Include="chapter_1\python_exception_handling\exception_caught.py" />
     <Compile Include="chapter_1\python_exception_handling\exception_uncaught.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
   </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
