@@ -5,7 +5,11 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyMongo", "PyMongo\PyMongo.pyproj", "{EF12E1BE-FFFB-4163-9F1E-62717F3B90EB}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mongo for Developers_files", "Mongo for Developers_files\Mongo for Developers_files.pyproj", "{AC80016C-D6A7-459B-9D14-D6913DE254AC}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "M101P_MongoDB for Developers", "M101P_MongoDB for Developers\M101P_MongoDB for Developers.pyproj", "{AC80016C-D6A7-459B-9D14-D6913DE254AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M101DotNet.WebApp", "M101N_MongoDB for .Net Developers\M101DotNet.WebApp\M101DotNet.WebApp.csproj", "{A8E26502-B5AB-4176-9823-105B0E1BD0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M101N_MongoDB for .Net Developers", "M101N_MongoDB for .Net Developers", "{85A1F50A-D2D3-47DC-A132-EC2523476912}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +23,15 @@ Global
 		{EF12E1BE-FFFB-4163-9F1E-62717F3B90EB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC80016C-D6A7-459B-9D14-D6913DE254AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC80016C-D6A7-459B-9D14-D6913DE254AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E26502-B5AB-4176-9823-105B0E1BD0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E26502-B5AB-4176-9823-105B0E1BD0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E26502-B5AB-4176-9823-105B0E1BD0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E26502-B5AB-4176-9823-105B0E1BD0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8E26502-B5AB-4176-9823-105B0E1BD0C4} = {85A1F50A-D2D3-47DC-A132-EC2523476912}
 	EndGlobalSection
 EndGlobal
