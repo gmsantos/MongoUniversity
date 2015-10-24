@@ -50,6 +50,26 @@
     <Folder Include="chapter_1\introduction_to_bottle_web_framework\" />
     <Folder Include="chapter_1\pymongo_exception_processing\" />
     <Folder Include="chapter_1\python_exception_handling\" />
+    <Folder Include="chapter_2\" />
+    <Folder Include="chapter_2\homework_2_1\" />
+    <Folder Include="chapter_2\homework_2_2\" />
+    <Folder Include="chapter_2\homework_2_3\" />
+    <Folder Include="chapter_2\homework_2_3\login_logout_signup\" />
+    <Folder Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\" />
+    <Folder Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\views\" />
+    <Folder Include="chapter_2\importing_from_reddit\" />
+    <Folder Include="chapter_2\pymongo_find_and_modify\" />
+    <Folder Include="chapter_2\pymongo_find_find_one_and_cursors\" />
+    <Folder Include="chapter_2\pymongo_insert_many\" />
+    <Folder Include="chapter_2\pymongo_insert_one\" />
+    <Folder Include="chapter_2\pymongo_projecting_results_from_find\" />
+    <Folder Include="chapter_2\pymongo_removing_data\" />
+    <Folder Include="chapter_2\pymongo_sort_skip_and_limit\" />
+    <Folder Include="chapter_2\pymongo_updating\" />
+    <Folder Include="chapter_2\pymongo_updating_data_using_replace\" />
+    <Folder Include="chapter_2\pymongo_upserts\" />
+    <Folder Include="chapter_2\pymongo_using_a_regex\" />
+    <Folder Include="chapter_2\pymongo_using_gt_and_lt\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter_1\bottle_framework_url_handlers\bottle_files\views\fruit_selection.tpl" />
@@ -61,6 +81,15 @@
     <Content Include="chapter_1\homework_1_1\hw1-1\dump\m101\hw1.bson" />
     <Content Include="chapter_1\homework_1_1\hw1-1\dump\m101\hw1.metadata.json" />
     <Content Include="chapter_1\installing_mongodb_windows\mongod.bat" />
+    <Content Include="chapter_2\homework_2_1\grades.json" />
+    <Content Include="chapter_2\homework_2_2\grades.json" />
+    <Content Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\views\blog_template.tpl" />
+    <Content Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\views\error_template.tpl" />
+    <Content Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\views\login.tpl" />
+    <Content Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\views\signup.tpl" />
+    <Content Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\views\welcome.tpl" />
+    <Content Include="chapter_2\importing_from_reddit\reddit.json" />
+    <Content Include="chapter_2\pymongo_find_find_one_and_cursors\create_student_collection.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="chapter_1\bottle_framework_url_handlers\bottle_files\fruit_form.py" />
@@ -76,6 +105,23 @@
     <Compile Include="chapter_1\pymongo_exception_processing\mongo_exception.py" />
     <Compile Include="chapter_1\python_exception_handling\exception_caught.py" />
     <Compile Include="chapter_1\python_exception_handling\exception_uncaught.py" />
+    <Compile Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\blog.py" />
+    <Compile Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\sessionDAO.py" />
+    <Compile Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\userDAO.py" />
+    <Compile Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\validate.py" />
+    <Compile Include="chapter_2\importing_from_reddit\read_reddit.py" />
+    <Compile Include="chapter_2\pymongo_find_and_modify\using_find_and_modify.py" />
+    <Compile Include="chapter_2\pymongo_find_find_one_and_cursors\using_find.py" />
+    <Compile Include="chapter_2\pymongo_insert_many\using_insert_many.py" />
+    <Compile Include="chapter_2\pymongo_insert_one\using_insert_one.py" />
+    <Compile Include="chapter_2\pymongo_projecting_results_from_find\using_find_with_projection.py" />
+    <Compile Include="chapter_2\pymongo_removing_data\remove_student_data.py" />
+    <Compile Include="chapter_2\pymongo_sort_skip_and_limit\using_limit_skip_sort.py" />
+    <Compile Include="chapter_2\pymongo_updating\using_update.py" />
+    <Compile Include="chapter_2\pymongo_updating_data_using_replace\using_replace_one.py" />
+    <Compile Include="chapter_2\pymongo_upserts\using_upsert.py" />
+    <Compile Include="chapter_2\pymongo_using_a_regex\using_regex.py" />
+    <Compile Include="chapter_2\pymongo_using_gt_and_lt\find_using_gt_lt.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />

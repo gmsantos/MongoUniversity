@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D699471C-1CA7-405E-B060-A345BFC2AF41}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="chapter_1\homework_1_1\hw1-1\dump\m101\funnynumbers.bson" />
+    <None Include="chapter_1\homework_1_1\hw1-1\dump\m101\funnynumbers.metadata.json" />
+    <None Include="chapter_1\homework_1_1\hw1-1\dump\m101\hw1.bson" />
+    <None Include="chapter_1\homework_1_1\hw1-1\dump\m101\hw1.metadata.json" />
+    <None Include="chapter_1\installing_mongodb_windows\mongod.bat" />
+    <None Include="chapter_2\homework_2_1\grades.json" />
+    <None Include="chapter_2\homework_2_2\grades.json" />
+  </ItemGroup>
+</Project>
