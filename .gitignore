@@ -194,3 +194,5 @@ __pycache__/
 /mongoProc3.0
 /PyMongo/web.config
 /PyMongo/web.debug.config
+
+/Scripts
