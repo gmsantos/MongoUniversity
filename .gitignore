@@ -189,4 +189,8 @@ _Pvt_Extensions/
 ModelManifest.xml
 
 __pycache__/
-#web*.config
+# web*.config
+
+/mongoProc3.0
+/PyMongo/web.config
+/PyMongo/web.debug.config
