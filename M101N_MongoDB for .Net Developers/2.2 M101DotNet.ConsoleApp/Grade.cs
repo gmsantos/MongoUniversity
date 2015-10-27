@@ -1,4 +1,5 @@
 ﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +11,13 @@ namespace M101DotNet.ConsoleApp
     {
         public ObjectId Id { get; set; }
 
-        public string Student_Id { get; set; }
+        [BsonElement("student_id")]
+        public int StudentId { get; set; }
 
+        [BsonElement("type")]
         public string Type { get; set; }
 
+        [BsonElement("score")]
         public double Score { get; set; }
 
     }
