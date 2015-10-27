@@ -1,4 +1,4 @@
-
+﻿
 import pymongo
 import sys
 
@@ -17,7 +17,7 @@ def using_upsert():
         things.drop()
 
         things.update_one({'thing':'apple'}, {'$set':{'color':'red'}}, upsert=True)
-	things.update_many({'thing':'banana'}, {'$set':{'color':'yellow'}}, upsert=True)
+        things.update_many({'thing':'banana'}, {'$set':{'color':'yellow'}}, upsert=True)
         things.replace_one({'thing':'pear'}, {'color':'green'}, upsert=True)
 
 
