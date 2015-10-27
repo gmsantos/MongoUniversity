@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
 
 namespace M101DotNet.WebApp.Models
 {
@@ -12,5 +13,13 @@ namespace M101DotNet.WebApp.Models
         // create an object suitable for insertion into the user collection
         // The homework instructions will tell you the schema that the documents 
         // must follow. Make sure to include Name and Email properties.
+
+        public ObjectId Id { get; set; }
+
+        [BsonElement("name")]
+        public string Name { get; set; }
+
+        [BsonElement("email")]
+        public string Email { get; set; }
     }
 }
