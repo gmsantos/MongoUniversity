@@ -196,3 +196,4 @@ __pycache__/
 /PyMongo/web.debug.config
 
 /Scripts
+/.vs
