@@ -7,8 +7,11 @@
     <None Include="chapter_1\homework_1_2\products.json" />
     <None Include="chapter_1\installing_mongodb_windows\mongod.bat" />
     <None Include="chapter_2\homework_2_1\products.json" />
+    <None Include="chapter_3\homework_3_3\products\products.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter_2\homework_2_1\homework2.js" />
+    <Content Include="chapter_3\homework_3_1\performance\performance.js" />
+    <Content Include="chapter_3\storage_engine_mmapv1\loadDatabase.js" />
   </ItemGroup>
 </Project>

@@ -11,5 +11,6 @@
     <None Include="chapter_1\installing_mongodb_windows\mongod.bat" />
     <None Include="chapter_2\homework_2_1\grades.json" />
     <None Include="chapter_2\homework_2_2\grades.json" />
+    <None Include="chapter_3\homework_3_1\students.json" />
   </ItemGroup>
 </Project>

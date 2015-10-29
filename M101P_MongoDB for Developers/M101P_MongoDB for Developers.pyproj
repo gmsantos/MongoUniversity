@@ -70,6 +70,18 @@
     <Folder Include="chapter_2\pymongo_upserts\" />
     <Folder Include="chapter_2\pymongo_using_a_regex\" />
     <Folder Include="chapter_2\pymongo_using_gt_and_lt\" />
+    <Folder Include="chapter_3\" />
+    <Folder Include="chapter_3\handling_blobs\" />
+    <Folder Include="chapter_3\handling_blobs\using_gridfs\" />
+    <Folder Include="chapter_3\homework_3_1\" />
+    <Folder Include="chapter_3\homework_3_2\" />
+    <Folder Include="chapter_3\homework_3_2\hw3-2and3-3\" />
+    <Folder Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\" />
+    <Folder Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\" />
+    <Folder Include="chapter_3\homework_3_3\" />
+    <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\" />
+    <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\" />
+    <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter_1\bottle_framework_url_handlers\bottle_files\views\fruit_selection.tpl" />
@@ -90,6 +102,22 @@
     <Content Include="chapter_2\homework_2_3\login_logout_signup\login_logout_signup\views\welcome.tpl" />
     <Content Include="chapter_2\importing_from_reddit\reddit.json" />
     <Content Include="chapter_2\pymongo_find_find_one_and_cursors\create_student_collection.js" />
+    <Content Include="chapter_3\handling_blobs\using_gridfs\sample_128_mb.txt" />
+    <Content Include="chapter_3\homework_3_1\students.json" />
+    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\blog_template.tpl" />
+    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\entry_template.tpl" />
+    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\error_template.tpl" />
+    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\login.tpl" />
+    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\newpost_template.tpl" />
+    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\signup.tpl" />
+    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\welcome.tpl" />
+    <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\blog_template.tpl" />
+    <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\entry_template.tpl" />
+    <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\error_template.tpl" />
+    <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\login.tpl" />
+    <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\newpost_template.tpl" />
+    <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\signup.tpl" />
+    <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\welcome.tpl" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="chapter_1\bottle_framework_url_handlers\bottle_files\fruit_form.py" />
@@ -122,6 +150,19 @@
     <Compile Include="chapter_2\pymongo_upserts\using_upsert.py" />
     <Compile Include="chapter_2\pymongo_using_a_regex\using_regex.py" />
     <Compile Include="chapter_2\pymongo_using_gt_and_lt\find_using_gt_lt.py" />
+    <Compile Include="chapter_3\handling_blobs\using_gridfs\using_gridfs.py" />
+    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\blog.py" />
+    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\blogPostDAO.py" />
+    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\sessionDAO.py" />
+    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\userDAO.py" />
+    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\validate.py" />
+    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\validate_blog.py" />
+    <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\blog.py" />
+    <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\blogPostDAO.py" />
+    <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\sessionDAO.py" />
+    <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\userDAO.py" />
+    <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\validate.py" />
+    <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\validate_blog.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
