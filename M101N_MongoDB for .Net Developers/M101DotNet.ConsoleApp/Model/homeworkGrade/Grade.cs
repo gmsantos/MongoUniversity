@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace M101DotNet.ConsoleApp
+namespace M101DotNet.ConsoleApp.Model.HomeworkGrade
 {
     class Grade
     {

@@ -6,8 +6,7 @@
     <ProjectGuid>ac80016c-d6a7-459b-9d14-d6913de254ac</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\blog.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -74,10 +73,6 @@
     <Folder Include="chapter_3\handling_blobs\" />
     <Folder Include="chapter_3\handling_blobs\using_gridfs\" />
     <Folder Include="chapter_3\homework_3_1\" />
-    <Folder Include="chapter_3\homework_3_2\" />
-    <Folder Include="chapter_3\homework_3_2\hw3-2and3-3\" />
-    <Folder Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\" />
-    <Folder Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\" />
     <Folder Include="chapter_3\homework_3_3\" />
     <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\" />
     <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\" />
@@ -104,13 +99,6 @@
     <Content Include="chapter_2\pymongo_find_find_one_and_cursors\create_student_collection.js" />
     <Content Include="chapter_3\handling_blobs\using_gridfs\sample_128_mb.txt" />
     <Content Include="chapter_3\homework_3_1\students.json" />
-    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\blog_template.tpl" />
-    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\entry_template.tpl" />
-    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\error_template.tpl" />
-    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\login.tpl" />
-    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\newpost_template.tpl" />
-    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\signup.tpl" />
-    <Content Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\views\welcome.tpl" />
     <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\blog_template.tpl" />
     <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\entry_template.tpl" />
     <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\error_template.tpl" />
@@ -151,12 +139,6 @@
     <Compile Include="chapter_2\pymongo_using_a_regex\using_regex.py" />
     <Compile Include="chapter_2\pymongo_using_gt_and_lt\find_using_gt_lt.py" />
     <Compile Include="chapter_3\handling_blobs\using_gridfs\using_gridfs.py" />
-    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\blog.py" />
-    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\blogPostDAO.py" />
-    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\sessionDAO.py" />
-    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\userDAO.py" />
-    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\validate.py" />
-    <Compile Include="chapter_3\homework_3_2\hw3-2and3-3\hw3-2and3-3\validate_blog.py" />
     <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\blog.py" />
     <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\blogPostDAO.py" />
     <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\sessionDAO.py" />

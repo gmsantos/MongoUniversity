@@ -53,7 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Grade.cs" />
+    <Compile Include="Model\homeworkGrade\Grade.cs" />
+    <Compile Include="Model\homeworkSchool\Student.cs" />
+    <Compile Include="Model\homeworkSchool\Score.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
