@@ -77,6 +77,15 @@
     <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\" />
     <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\" />
     <Folder Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\" />
+    <Folder Include="chapter_4\" />
+    <Folder Include="chapter_4\creating_indexes\" />
+    <Folder Include="chapter_4\homework_4_3\" />
+    <Folder Include="chapter_4\homework_4_3\hw4-3\" />
+    <Folder Include="chapter_4\homework_4_3\hw4-3\hw4-3\" />
+    <Folder Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\" />
+    <Folder Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\" />
+    <Folder Include="chapter_4\homework_4_4\" />
+    <Folder Include="chapter_4\mongostat\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter_1\bottle_framework_url_handlers\bottle_files\views\fruit_selection.tpl" />
@@ -106,6 +115,24 @@
     <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\newpost_template.tpl" />
     <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\signup.tpl" />
     <Content Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\views\welcome.tpl" />
+    <Content Include="chapter_4\creating_indexes\create_scores2.js" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\posts.json" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\README" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\billofrights.txt" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\constitution.txt" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\decl.txt" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\getty.txt" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\names.txt" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\nounlist.txt" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\blog_template.tpl" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\entry_template.tpl" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\error_template.tpl" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\login.tpl" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\newpost_template.tpl" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\signup.tpl" />
+    <Content Include="chapter_4\homework_4_3\hw4-3\hw4-3\views\welcome.tpl" />
+    <Content Include="chapter_4\homework_4_4\sysprofile.json" />
+    <Content Include="chapter_4\mongostat\create_scores.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="chapter_1\bottle_framework_url_handlers\bottle_files\fruit_form.py" />
@@ -145,6 +172,13 @@
     <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\userDAO.py" />
     <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\validate.py" />
     <Compile Include="chapter_3\homework_3_3\hw3-2and3-3\hw3-2and3-3\validate_blog.py" />
+    <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\blog.py" />
+    <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\blogPostDAO.py" />
+    <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\scripts_to_create_posts\create_blog_posts.py" />
+    <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\sessionDAO.py" />
+    <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\userDAO.py" />
+    <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\validate.py" />
+    <Compile Include="chapter_4\mongostat\stress_students.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />

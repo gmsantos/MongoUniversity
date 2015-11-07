@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2 M101DotNet.WebApp", "M1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M101DotNet.ConsoleApp", "M101N_MongoDB for .Net Developers\M101DotNet.ConsoleApp\M101DotNet.ConsoleApp.csproj", "{26A7CF0A-2DB7-491F-A228-0106506AA342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.3 M101DotNet.WebApp", "M101N_MongoDB for .Net Developers\4.3 M101DotNet.WebApp\4.3 M101DotNet.WebApp.csproj", "{0787A687-4DC3-47F1-AD8F-0355B340928E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,16 @@ Global
 		{26A7CF0A-2DB7-491F-A228-0106506AA342}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{26A7CF0A-2DB7-491F-A228-0106506AA342}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{26A7CF0A-2DB7-491F-A228-0106506AA342}.Release|Win32.ActiveCfg = Release|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0787A687-4DC3-47F1-AD8F-0355B340928E}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,5 +133,6 @@ Global
 		{4558621B-E622-47E0-B81E-5686F8513F62} = {5EB410B3-DE63-4CA0-8C95-787E1C0D7CFA}
 		{F9978237-DA29-492C-A466-1A58A264BA1F} = {5EB410B3-DE63-4CA0-8C95-787E1C0D7CFA}
 		{26A7CF0A-2DB7-491F-A228-0106506AA342} = {5EB410B3-DE63-4CA0-8C95-787E1C0D7CFA}
+		{0787A687-4DC3-47F1-AD8F-0355B340928E} = {5EB410B3-DE63-4CA0-8C95-787E1C0D7CFA}
 	EndGlobalSection
 EndGlobal
