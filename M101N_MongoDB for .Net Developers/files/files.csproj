@@ -28,11 +28,43 @@
     <None Include="chapter_2\homework_2_2\grades.json" />
     <None Include="chapter_3\homework_3_1\students.json" />
     <None Include="chapter_4\homework_4_4\sysprofile.json" />
+    <None Include="chapter_5\homework_5_2_hands_on\small_zips\small_zips.json" />
+    <None Include="chapter_5\homework_5_3_hands_on\grades\grades.json" />
+    <None Include="chapter_5\homework_5_4\zips.json" />
+    <None Include="chapter_5\using_avg\small_zips\small_zips.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter_4\creating_indexes\create_scores2.js" />
     <Content Include="chapter_4\mongostat\create_scores.js" />
     <Content Include="chapter_4\mongostat\stress_students.py" />
+    <Content Include="chapter_5\compound_grouping\compound1.js" />
+    <Content Include="chapter_5\compound_grouping\simple_example1.js" />
+    <Content Include="chapter_5\double_group_stages\double_group.js" />
+    <Content Include="chapter_5\double_group_stages\single_group.js" />
+    <Content Include="chapter_5\double_unwind\double_unwind.js" />
+    <Content Include="chapter_5\double_unwind\reversing_double_unwind.js" />
+    <Content Include="chapter_5\double_unwind\reversing_double_unwind2.js" />
+    <Content Include="chapter_5\revisiting_first_and_last\first.js" />
+    <Content Include="chapter_5\revisiting_first_and_last\first_phase1.js" />
+    <Content Include="chapter_5\revisiting_first_and_last\first_phase2.js" />
+    <Content Include="chapter_5\revisiting_first_and_last\first_phase3.js" />
+    <Content Include="chapter_5\simple_aggregation_example\products.js" />
+    <Content Include="chapter_5\simple_aggregation_example\simple_example.js" />
+    <Content Include="chapter_5\unwind_example\blog_tags.js" />
+    <Content Include="chapter_5\using_addtoset\using_addToSet.js" />
+    <Content Include="chapter_5\using_avg\using_avg.js" />
+    <Content Include="chapter_5\using_limit_and_skip\limit.js" />
+    <Content Include="chapter_5\using_match\match.js" />
+    <Content Include="chapter_5\using_match\match_and_group.js" />
+    <Content Include="chapter_5\using_match\match_group_and_project.js" />
+    <Content Include="chapter_5\using_max_and_min\using_max.js" />
+    <Content Include="chapter_5\using_project\quiz_using_project.js" />
+    <Content Include="chapter_5\using_project\reshape_products.js" />
+    <Content Include="chapter_5\using_push\using_push.js" />
+    <Content Include="chapter_5\using_sort\sort.js" />
+    <Content Include="chapter_5\using_sum\quiz_sum_by_state.js" />
+    <Content Include="chapter_5\using_sum\using_sum.js" />
+    <Content Include="chapter_5\using_unwind\quiz_unwind.js" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
