@@ -111,6 +111,18 @@
     <Folder Include="chapter_5\using_sort\" />
     <Folder Include="chapter_5\using_sum\" />
     <Folder Include="chapter_5\using_unwind\" />
+    <Folder Include="chapter_6\" />
+    <Folder Include="chapter_6\building_a_sharded_environment\" />
+    <Folder Include="chapter_6\connecting_to_a_replica_set_from_pymongo\" />
+    <Folder Include="chapter_6\creating_a_replica_set\" />
+    <Folder Include="chapter_6\detecting_failover\" />
+    <Folder Include="chapter_6\homework_6_5\" />
+    <Folder Include="chapter_6\proper_handling_of_failover_for_inserts\" />
+    <Folder Include="chapter_6\proper_handling_of_failover_for_reads\" />
+    <Folder Include="chapter_6\proper_handling_of_failover_for_updates\" />
+    <Folder Include="chapter_6\read_preferences\" />
+    <Folder Include="chapter_6\what_happens_when_failover_occurs\" />
+    <Folder Include="chapter_6\write_concern_revisited\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter_1\bottle_framework_url_handlers\bottle_files\views\fruit_selection.tpl" />
@@ -191,6 +203,11 @@
     <Content Include="chapter_5\using_sum\quiz_sum_by_state.js" />
     <Content Include="chapter_5\using_sum\using_sum.js" />
     <Content Include="chapter_5\using_unwind\quiz_unwind.js" />
+    <Content Include="chapter_6\building_a_sharded_environment\create_scores3.js" />
+    <Content Include="chapter_6\building_a_sharded_environment\init_sharded_env.bat" />
+    <Content Include="chapter_6\building_a_sharded_environment\init_sharded_env.sh" />
+    <Content Include="chapter_6\creating_a_replica_set\create_replica_set.sh" />
+    <Content Include="chapter_6\creating_a_replica_set\init_replica.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="chapter_1\bottle_framework_url_handlers\bottle_files\fruit_form.py" />
@@ -237,6 +254,15 @@
     <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\userDAO.py" />
     <Compile Include="chapter_4\homework_4_3\hw4-3\hw4-3\validate.py" />
     <Compile Include="chapter_4\mongostat\stress_students.py" />
+    <Compile Include="chapter_6\connecting_to_a_replica_set_from_pymongo\pymongo_to_replset1.py" />
+    <Compile Include="chapter_6\detecting_failover\insert_with_abandon.py" />
+    <Compile Include="chapter_6\homework_6_5\validate.py" />
+    <Compile Include="chapter_6\proper_handling_of_failover_for_inserts\insert_robustly.py" />
+    <Compile Include="chapter_6\proper_handling_of_failover_for_reads\read_robustly.py" />
+    <Compile Include="chapter_6\proper_handling_of_failover_for_updates\proper_handling_of_failover_for_updates.py" />
+    <Compile Include="chapter_6\read_preferences\read_from_secondary.py" />
+    <Compile Include="chapter_6\what_happens_when_failover_occurs\insert_naively.py" />
+    <Compile Include="chapter_6\write_concern_revisited\simple_inserts.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />

@@ -32,6 +32,9 @@
     <None Include="chapter_5\homework_5_3_hands_on\grades\grades.json" />
     <None Include="chapter_5\homework_5_4\zips.json" />
     <None Include="chapter_5\using_avg\small_zips\small_zips.json" />
+    <None Include="chapter_6\building_a_sharded_environment\init_sharded_env.bat" />
+    <None Include="chapter_6\building_a_sharded_environment\init_sharded_env.sh" />
+    <None Include="chapter_6\creating_a_replica_set\create_replica_set.sh" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="chapter_4\creating_indexes\create_scores2.js" />
@@ -65,6 +68,10 @@
     <Content Include="chapter_5\using_sum\quiz_sum_by_state.js" />
     <Content Include="chapter_5\using_sum\using_sum.js" />
     <Content Include="chapter_5\using_unwind\quiz_unwind.js" />
+    <Content Include="chapter_6\building_a_sharded_environment\create_scores3.js" />
+    <Content Include="chapter_6\creating_a_replica_set\init_replica.js" />
+    <Content Include="chapter_6\read_preferences\read_from_secondary.py" />
+    <Content Include="chapter_6\write_concern_revisited\simple_inserts.py" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

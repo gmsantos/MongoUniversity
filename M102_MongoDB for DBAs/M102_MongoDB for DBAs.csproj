@@ -14,5 +14,8 @@
     <Content Include="chapter_3\homework_3_1\performance\performance.js" />
     <Content Include="chapter_3\storage_engine_mmapv1\loadDatabase.js" />
     <Content Include="chapter_4\homework_4_1\replication\replication.js" />
+    <Content Include="chapter_6\adding_the_initial_shards\our_setup_script.js" />
+    <Content Include="chapter_6\homework_6_1\week6.js" />
+    <Content Include="chapter_6\working_with_a_sharded_cluster\working_with_a_sharded_cluster\working_with_a_sharded_cluster.js" />
   </ItemGroup>
 </Project>
